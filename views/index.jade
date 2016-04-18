@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h2 Nutri-App
+  input#search(type="search",placeholder="Search For Food")
+  h2#results
+  p#loading
+    img(src="/images/loading.gif")
+  p#chartContainer
+  div#footer @Phani-Works @Node-js Nutri-App 
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+  script(src="/javascripts/main.js")
+  script(src="/javascripts/canvasjs.min.js")
+

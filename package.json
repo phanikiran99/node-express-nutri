@@ -1,0 +1,22 @@
+{
+  "name": "node-express-nutri",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+	"request": "2.x.x",
+	"cfenv":"1.0.x",
+    "express": "~3.4.8",
+    "serve-favicon": "~2.3.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "pug": "~2.0.0-alpha3"
+  },
+  "engines": {
+		"node": "4.2.x"
+	} 
+}
