@@ -1,3 +1,6 @@
+//Script to start the server and request data from USDA api for Nutri Details
+//@Author: Phani
+//version : Init 1.0 (base)
 var express = require('express');
 var request = require('request');
 var http = require('http');
@@ -10,8 +13,8 @@ var bodyParser = require('body-parser');
 
 // api definitions
 var api_key = ''  //API KEY , Need to be manually Added
-var usdn_seach_api ='http://api.nal.usda.gov/ndb/search/?format=json&'
-var usdn_ndbno_api = 'http://api.nal.usda.gov/ndb/reports/?ndbno='
+var usdn_seach_api ='http://api.nal.usda.gov/ndb/search/?format=json&'  //To search for food details and get ndbno
+var usdn_ndbno_api = 'http://api.nal.usda.gov/ndb/reports/?ndbno=' // To get nutri details from ndbno
 // user variables
 var food_name= ''
 var ndbno_val=''
@@ -20,7 +23,7 @@ var nutri_values =''
 var nutri_name = []
 var nutri_unit = []
 var nutri_value = []
-var craig
+var craig //final response to be sent
 //var routes = require('./routes');
 //var users = require('./routes/user');
 
