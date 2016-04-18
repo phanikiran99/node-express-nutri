@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 
 // api definitions
-var api_key = 'FsgUaMZ9xsdBK7ePpGB40mbndD8KRFn4E4hYIy39'
+var api_key = ''  //API KEY , Need to be manually Added
 var usdn_seach_api ='http://api.nal.usda.gov/ndb/search/?format=json&'
 var usdn_ndbno_api = 'http://api.nal.usda.gov/ndb/reports/?ndbno='
 // user variables
