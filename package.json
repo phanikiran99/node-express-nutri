@@ -8,12 +8,12 @@
   "dependencies": {
 	"request": "2.x.x",
 	"cfenv":"1.0.x",
-    "express": "~3.4.8",
+    "express": ">=3.11.0",
     "serve-favicon": "~2.3.0",
     "morgan": "~1.9.1",
     "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
-    "debug": "~0.7.4",
+    "debug": ">=2.6.9",
     "pug": "~2.0.0-alpha3"
   },
   "engines": {
